@@ -3,13 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title> To Do List </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="main">
       <div class="toDoList">
-        <div placeholder="Add a new item" class="addNew">
-
-        </div>
+        <form class="addNew" action="index.html" method="post">
+          <input name="newItem" class="newItem" placeholder="Add a new item here"/>
+        </form>
+        <div class="items"></div>
       </div>
     </div>
   </body>
