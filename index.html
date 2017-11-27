@@ -2,19 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> To Do List </title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/app.js" charset="utf-8"></script>
+    <title>Todo List</title>
+    <script src="assets/js/lib/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="https://use.fontawesome.com/08b2688f7e.js"></script>
+    <script src="assets/js/app.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
   </head>
   <body>
-    <div class="main">
-      <div class="toDoList">
-        <form class="addNew" action="index.html" method="post">
-          <input name="newItem" class="newItem" placeholder="Add a new item here"/>
-        </form>
-        <div class="items"></div>
-      </div>
+    <div id="container">
+      <h1>To-Do List<i class="fa fa-plus"></i></h1>
+      <input type="text" name="" value="" placeholder="add new todo">
+      <ul>
+        <li> <span><i class="fa fa-trash"></i></span> Go To Potions Class</li>
+        <li> <span><i class="fa fa-trash"></i></span> Buy New Robes</li>
+        <li> <span><i class="fa fa-trash"></i></span> Visit Hargid</li>
+      </ul>
     </div>
   </body>
 </html>
